@@ -1,0 +1,14 @@
+{
+  "name": "myob-code-test",
+  "version": "1.0.0",
+  "description": "MYOB code test, monthly payslip calculator",
+  "main": "index.js",
+  "repository": "TBC later",
+  "author": {
+    "name": "Wenpei Zhang",
+    "email": "wenpeijs@gmail.com",
+    "url": "https://www.linkedin.com/in/jsnoob/"
+  },
+  "license": "MIT",
+  "private": true
+}
