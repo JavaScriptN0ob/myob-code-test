@@ -10,5 +10,9 @@
     "url": "https://www.linkedin.com/in/jsnoob/"
   },
   "license": "MIT",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "eslint": "^7.30.0",
+    "eslint-config-airbnb": "^18.2.1"
+  }
 }
