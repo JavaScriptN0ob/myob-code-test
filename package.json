@@ -11,8 +11,12 @@
   },
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "test": "jest"
+  },
   "dependencies": {
     "eslint": "^7.30.0",
-    "eslint-config-airbnb": "^18.2.1"
+    "eslint-config-airbnb": "^18.2.1",
+    "jest": "^27.0.6"
   }
 }
