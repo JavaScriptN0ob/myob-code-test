@@ -1,7 +1,18 @@
 # MYOB Code Test. Author: Wenpei Zhang<span id="top"></span>
 
+[Get Started](#start)    
 [Code test description](#description)  
 [Concept of Coding](#concepts)
+
+
+## Getting Started <span id="start"></span>    
+### Installation    
+1. Using ` yarn ` to install all dependencies    
+### Start    
+1. using ` yarn start ` to run the ***monthly payslip generator***    
+2. console input: `GenerateMonthlyPayslip "Mary Song" 60000`    
+### Test    
+1. Using ```yarn test``` to run all unit test
 
 
 ## Create a console application that given employee annual salary details outputs a monthly pay slip.<span id="description"></span>
@@ -124,7 +135,7 @@ const TAX_TABLE = [
 
 
 >**4) Final decision** ---> Find:    
-    Because its logic more similar to human being thinking, also good in maintainable and readable.
+>>Because its logic more similar to human being thinking, also good in maintainable and readable.
 
 
 [Back to Top](#top)
