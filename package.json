@@ -12,7 +12,8 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "node src/app/index.js"
   },
   "dependencies": {
     "eslint": "^7.30.0",
