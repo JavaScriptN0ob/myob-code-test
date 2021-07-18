@@ -27,11 +27,11 @@
 3. Hotel component    
 3.1 PreviewImage: I create an Image component which receive a image object includes url can caption. Image will take the responsibility of render image itself. PreviewImage is using as a container with sizes.    
 3.2 Detail is a flex-grow: 1; component, after PreviewImage took the left room. Detail also includes multiple components.    
-3.2.1 Information which includes title(name) of the hotel, rating component and address.
-3.2.1.1TitleWithRating is a flex component, which including a row layout of title and rating.    
-3.2.1.2Address will receive an array and using join method to create proper address to show in UI.    
-3.2.2 Offer includes offerName and cancellation information. I used flex-grow:1; for cancellation + margin-bottom to provide cancellation ability to stay at bottom, no matter if cancellable(having green test).    
-3.2.2.1Price includes unit title, amount and also savings. Very similar to cancellation, I use flex-grow and margin to layout price component.
+    3.2.1 Information which includes title(name) of the hotel, rating component and address.
+        3.2.1.1TitleWithRating is a flex component, which including a row layout of title and rating.    
+        3.2.1.2Address will receive an array and using join method to create proper address to show in UI.    
+    3.2.2 Offer includes offerName and cancellation information. I used flex-grow:1; for cancellation + margin-bottom to provide cancellation ability to stay at bottom, no matter if cancellable(having green test).    
+        3.2.2.1Price includes unit title, amount and also savings. Very similar to cancellation, I use flex-grow and margin to layout price component.
 3.3 Promotion is a absolute outside of Image and Detail. Due to it is on top of PreviewImage, but promotion is not same responsibility as image component, even these data are from different key(property and offer). So I use a position absolute to layout the promotion.    
 4. Some extract functions/method    
 4.1 It could provide more testable ability to the code.    
